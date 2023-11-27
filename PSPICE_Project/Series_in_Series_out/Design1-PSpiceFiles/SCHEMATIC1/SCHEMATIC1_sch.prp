@@ -1,0 +1,223 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("DigitalPulse_app")
+        ("STIM1")
+        ("DFF")
+    )
+    ("instances"
+        ("DSTM1"
+            ("device_name"	"DigitalPulse_app")
+            ("pspice_path"	"U_DSTM1")
+            ("level"	"0")
+            ("model_params"
+                ("OFFTIME"
+                    ("value"	"0.5u")
+                    ("pspice_param"	"OFFTIME")
+                )
+                ("ONTIME"
+                    ("value"	"0.5u")
+                    ("pspice_param"	"ONTIME")
+                )
+                ("DELAY"
+                    ("value"	"0")
+                    ("pspice_param"	"DELAY")
+                )
+                ("AppProp"
+                    ("value"	"OFFTIME=0.5u,ONTIME=0.5u,DELAY=0,ROUT=10,VOH=5,VOL=0")
+                    ("pspice_param"	"AppProp")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"CDN_IO_APP")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("OPPVAL"
+                    ("value"	"1")
+                    ("pspice_param"	"OPPVAL")
+                )
+                ("PSpiceModelingAppType"
+                    ("value"	"DigitalPulse_app")
+                    ("pspice_param"	"PSpiceModelingAppType")
+                )
+                ("ROUT"
+                    ("value"	"10")
+                    ("pspice_param"	"ROUT")
+                )
+                ("STARTVAL"
+                    ("value"	"0")
+                    ("pspice_param"	"STARTVAL")
+                )
+                ("VOH"
+                    ("value"	"5")
+                    ("pspice_param"	"VOH")
+                )
+                ("VOL"
+                    ("value"	"0")
+                    ("pspice_param"	"VOL")
+                )
+            )
+        )
+        ("DSTM2"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_DSTM2")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND4"
+                    ("value"	"3us 0")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND2"
+                    ("value"	"1us 1")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"2us 1")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND5"
+                    ("value"	"4us 1")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("U3"
+            ("device_name"	"DFF")
+            ("pspice_path"	"X_U3")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+            )
+        )
+        ("U4"
+            ("device_name"	"DFF")
+            ("pspice_path"	"X_U4")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+            )
+        )
+        ("U5"
+            ("device_name"	"DFF")
+            ("pspice_path"	"X_U5")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+            )
+        )
+        ("U6"
+            ("device_name"	"DFF")
+            ("pspice_path"	"X_U6")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+            )
+        )
+    )
+)

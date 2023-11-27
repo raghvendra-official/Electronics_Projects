@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Nov 18 16:50:13 2023
+# Process ID: 15396
+# Current directory: C:/Users/raghv/OneDrive/Desktop/Vivado/full_adder/full_adder.runs/impl_1
+# Command line: vivado.exe -log full_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source full_adder.tcl -notrace
+# Log file: C:/Users/raghv/OneDrive/Desktop/Vivado/full_adder/full_adder.runs/impl_1/full_adder.vdi
+# Journal file: C:/Users/raghv/OneDrive/Desktop/Vivado/full_adder/full_adder.runs/impl_1\vivado.jou
+# Running On: DESKTOP-157DGBC, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16856 MB
+#-----------------------------------------------------------
+source full_adder.tcl -notrace

@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Fatal: Test case 2 failed
+Time: 20 ns  Iteration: 0  Process: /tb_mux_4to1/Initial39_1  Scope: tb_mux_4to1  File: C:/Users/raghv/OneDrive/Desktop/Vivado/mux_4to1/mux_4to1.srcs/sim_1/new/tb_mux_4to1.v Line: 48
+$finish called at time : 20 ns

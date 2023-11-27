@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Fatal: Test case 1 failed
+Time: 30 ns  Iteration: 0  Process: /tb_up_counter_4bit/Initial44_2  Scope: tb_up_counter_4bit  File: C:/Users/raghv/OneDrive/Desktop/Vivado/up_counter_4bit/up_counter_4bit.srcs/sim_1/new/tb_up_counter_4bit.v Line: 52
+$finish called at time : 30 ns

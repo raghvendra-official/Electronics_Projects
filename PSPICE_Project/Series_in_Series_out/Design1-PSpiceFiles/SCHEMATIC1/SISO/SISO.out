@@ -1,0 +1,164 @@
+**** Analysis Setup ****
+
+**** 11/14/23 23:22:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-SISO"  [ c:\users\raghv\onedrive\desktop\vivado\design1-pspicefiles\schematic1\siso.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "SISO.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\raghv\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/23.1.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20us 0 
+.OPTIONS ADVCONV
+.OPTIONS DIGINITSTATE= 0
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DESIGN1
+U_DSTM1         STIM(1,1) $G_DPWR_DSTM1 $G_DGND_DSTM1 N00468 CDN_IO_APP
++  IO_LEVEL=0 ROUT=10 VOH=5 VOL=0 
++ 0 0
++ +0 1
++REPEAT FOREVER
++ +0.5u 0
++  +0.5u 1
++ ENDREPEAT
+U_DSTM2         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00557 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 1us 1  
++ 2us 1  
++ 3us 0 
++ 4us 1  
+X_U3         N00582 N00468 N00586 M_UN0001 $G_DPWR $G_DGND DFF
+X_U4         N00586 N00468 N00590 M_UN0002 $G_DPWR $G_DGND DFF
+X_U5         N00590 N00468 N01405 M_UN0003 $G_DPWR $G_DGND DFF
+X_U6         N00557 N00468 N00582 M_UN0004 $G_DPWR $G_DGND DFF
+
+**** RESUMING SISO.cir ****
+.END
+
+**** 11/14/23 23:22:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-SISO"  [ c:\users\raghv\onedrive\desktop\vivado\design1-pspicefiles\schematic1\siso.sim ] 
+
+
+ ****     Digital Edge Triggered FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_PLD_EFF       
+  TPCLKQLHMN    0            
+  TPCLKQLHTY    0            
+  TPCLKQLHMX    0            
+  TPCLKQHLMN    0            
+  TPCLKQHLTY    0            
+  TPCLKQHLMX    0            
+   TPPCQLHMN    0            
+   TPPCQLHTY    0            
+   TPPCQLHMX    0            
+   TPPCQHLMN    0            
+   TPPCQHLTY    0            
+   TPPCQHLMX    0            
+    TWCLKLMN    0            
+    TWCLKLTY    0            
+    TWCLKLMX    0            
+    TWCLKHMN    0            
+    TWCLKHTY    0            
+    TWCLKHMX    0            
+     TWPCLMN    0            
+     TWPCLTY    0            
+     TWPCLMX    0            
+   TSUDCLKMN    0            
+   TSUDCLKTY    0            
+   TSUDCLKMX    0            
+ TSUPCCLKHMN    0            
+ TSUPCCLKHTY    0            
+ TSUPCCLKHMX    0            
+    THDCLKMN    0            
+    THDCLKTY    0            
+    THDCLKMX    0            
+  TSUCECLKMN    0            
+  TSUCECLKTY    0            
+  TSUCECLKMX    0            
+   THCECLKMN    0            
+   THCECLKTY    0            
+   THCECLKMX    0            
+
+
+**** 11/14/23 23:22:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-SISO"  [ c:\users\raghv\onedrive\desktop\vivado\design1-pspicefiles\schematic1\siso.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               CDN_IO_APP      IO_STM          IO_PLD          
+        DRVL  104               0                            
+        DRVH   96.4             0                            
+         RIN   10.000000E+06                                 
+        ROUT   10                                            
+         VOL    0                                            
+         VOH    5                                            
+      HYSTWD    1                                            
+          TH    2.5                                          
+       AtoD1 CDN_AtoD_APP                                    
+       AtoD2 CDN_AtoD_APP                                    
+       AtoD3 CDN_AtoD_APP                                    
+       AtoD4 CDN_AtoD_APP                                    
+       DtoA1 CDN_DtoA_APP    DtoA_STM                        
+       DtoA2 CDN_DtoA_APP    DtoA_STM                        
+       DtoA3 CDN_DtoA_APP    DtoA_STM                        
+       DtoA4 CDN_DtoA_APP    DtoA_STM                        
+    DIGPOWER CDN_DIGIFPWR_APP 
+                                                             
+       TPWRT  100.000000E+03  100.000000E+03  100.000000E+03 
+
+
+**** Command: FINISH
+
+**** 11/14/23 23:22:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-SISO"  [ c:\users\raghv\onedrive\desktop\vivado\design1-pspicefiles\schematic1\siso.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time                    =       14.97
+

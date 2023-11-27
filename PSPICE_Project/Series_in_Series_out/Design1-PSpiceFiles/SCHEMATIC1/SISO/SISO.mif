@@ -1,0 +1,5 @@
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\dig_io.lib, offset=119236, size=356
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\dig_io.lib, offset=9827, size=143
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\dig_prim.lib, offset=22592, size=312
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\dig_prim.lib, offset=41585, size=23
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\dig_prim.lib, offset=41633, size=26

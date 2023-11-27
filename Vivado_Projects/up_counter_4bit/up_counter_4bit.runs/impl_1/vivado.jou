@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Nov 18 17:07:43 2023
+# Process ID: 16032
+# Current directory: C:/Users/raghv/OneDrive/Desktop/Vivado/up_counter_4bit/up_counter_4bit.runs/impl_1
+# Command line: vivado.exe -log up_counter_4bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source up_counter_4bit.tcl -notrace
+# Log file: C:/Users/raghv/OneDrive/Desktop/Vivado/up_counter_4bit/up_counter_4bit.runs/impl_1/up_counter_4bit.vdi
+# Journal file: C:/Users/raghv/OneDrive/Desktop/Vivado/up_counter_4bit/up_counter_4bit.runs/impl_1\vivado.jou
+# Running On: DESKTOP-157DGBC, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16856 MB
+#-----------------------------------------------------------
+source up_counter_4bit.tcl -notrace
